@@ -1,0 +1,68 @@
+/*feuille de style pour la branche*/
+*{
+  border: 1px solid grey;
+}
+
+html{
+    height: 100%;
+
+}
+
+body{
+  margin-left: auto;
+  margin-right: auto;
+  height: 100%;
+}
+.container{
+  position: absolute;
+  left: 5vw ;
+}
+.button{
+  position: absolute;
+  height : 10vh;
+  width: 10vh;
+  top: 20vh;
+}
+.branch_container{
+  position: absolute;
+  display: flex;
+  height: 30vh;
+  width: 30vw;
+  top : 25vh;
+  left: 10vh;
+}
+.wood_container{
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.wood_margin_bottom{
+  height: 5vh;
+}
+.wood_picture{
+  flex : 1;
+  height: 25vh;
+}
+
+.fruit_container{
+  display: flex;
+  flex-direction: column;
+
+}
+.fruit_margin_top{
+  flex : 1;
+}
+.fruit_picture{
+  height : 10vh;
+  width: 10vh;
+}
+.circle{
+  background-image: url(./circle.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.wood{
+  background-image: url(./wood.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
