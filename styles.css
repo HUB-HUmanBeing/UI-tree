@@ -26,10 +26,24 @@ body{
 .branch_container{
   position: absolute;
   display: flex;
-  height: 30vh;
-  width: 30vw;
   top : 25vh;
   left: 10vh;
+}
+.branch1{
+  height: 40vh;
+  width: 40vw;
+}
+.branch2{
+  height: 40vh;
+  width: 20vw;
+}
+.branch0{
+  height: 15vh;
+  width: 40vw;
+}
+.branch3{
+  height: 20vh;
+  width: 30vw;
 }
 .wood_container{
   display: flex;
@@ -60,9 +74,12 @@ body{
   background-image: url(./circle.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+
+  z-index: 2
 }
 .wood{
-  background-image: url(./wood.jpg);
+  background-image: url(./wood.png);
   background-repeat: no-repeat;
   background-size: 100% 100%;
+
 }
