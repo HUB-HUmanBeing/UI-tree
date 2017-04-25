@@ -1,7 +1,7 @@
 /*feuille de style pour la branche*/
-*{
+/**{
   border: 1px solid grey;
-}
+}*/
 
 html{
     height: 100%;
